@@ -15,4 +15,9 @@ public class HelloRestController {
     public String ping(){
         return "pong";
     }
+
+    @GetMapping("docker-push")
+    public String dockerPush() {
+        return "docker-push-test";
+    }
 }
