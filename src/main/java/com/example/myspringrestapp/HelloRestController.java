@@ -25,4 +25,10 @@ public class HelloRestController {
     public String kubeTest(){
         return "Kube-Test";
     }
+
+    @GetMapping("k8s-ci-cd")
+    public String k8scicd(){
+        return "K8s CI CD working";
+    }
+
 }
