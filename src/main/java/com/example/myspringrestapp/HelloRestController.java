@@ -20,4 +20,9 @@ public class HelloRestController {
     public String dockerPush() {
         return "docker-push-test";
     }
+
+    @GetMapping("kubernetes-test")
+    public String kubeTest(){
+        return "Kube-Test";
+    }
 }
