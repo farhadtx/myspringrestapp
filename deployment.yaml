@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: myspringrestapp
-          image: farhadtx/myspringrestapp:1.0.0 # Image that will be used to containers in the cluster
+          image: farhadtx/myspringrestapp:#BUILD_NUMBER # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
