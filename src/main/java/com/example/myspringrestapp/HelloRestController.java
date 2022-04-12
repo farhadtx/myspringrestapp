@@ -15,4 +15,9 @@ public class HelloRestController {
     public String ping(){
         return "pong";
     }
+    
+    @GetMapping("/jenkins-pipeline-as-script")
+    public String jenkinsPipeline(){
+        return "Jenkins pipeline as script working";
+    }
 }
