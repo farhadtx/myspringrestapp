@@ -20,4 +20,9 @@ public class HelloRestController {
     public String jenkinsPipeline(){
         return "Jenkins pipeline as script working";
     }
+
+    @GetMapping("/demo")
+    public String demo(){
+        return "Hello-From-Demo";
+    }
 }
