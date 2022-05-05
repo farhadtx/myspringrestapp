@@ -8,7 +8,7 @@ public class HelloRestController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello";
+        return "Hello from my CI/CD pipeline";
     }
 
     @GetMapping("/ping")
