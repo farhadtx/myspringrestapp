@@ -25,4 +25,9 @@ public class HelloRestController {
     public String demo(){
         return "Hello-From-Demo";
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "Spring boot - jenkins - docker - Kubernetes CI CD running";
+    }
 }
